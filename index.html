@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Boq's Profile</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">Boq's</a>
+        </div>
+        <nav class="nav">
+            <a href="#">home</a>
+            <a href="#about">about</a>
+            <a href="#project">project</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="fas fa-bars" id="icon"></div>
+    </header>
+    <section class="hero">
+        <div class="info">
+            <h1>hello, i'm mark!</h1>
+            <h3>student intern</h3>
+            <p>Nice to meet you!, I'm Mark, and I'm someone who believes in working hard to achieve their goals.</p>
+            <a class="btn" href="#contact">Contact me!</a>
+        </div>
+        <div class="image">
+            <img src="images/picture.png" alt="">
+        </div>
+    </section>
+    <section class="aboutSelf" id="about">
+        <div class="title">
+            <a>My Hobbies</a>
+        </div>
+        <div class="box-container">
+        </div>
+    </section>
+
+    <section class="thumbnail" id="project">
+        <div class="title">
+            <a>My Thumbnails</a>
+        </div>
+        <div class="box-container"></div>
+    </section>
+
+    <section class="contact">
+        <div class="image">
+            <img src="images/bg.jpg" alt="">
+        </div>
+        <form>
+            <h1>Contact me</h1>
+            <div class="box">
+                <label for="name">name: </label>
+                <input type="text" placeholder="Your name" id="name">
+            </div>
+            <div class="box">
+                <label for="email">email: </label>
+                <input type="text" placeholder="Your name" id="email">
+            </div>
+            <div class="box">
+                <label for="message">message: </label>
+                <textarea rows="4" cols="50" placeholder="Your message" id="message"></textarea>
+            </div>
+            <button>Send message</button>
+        </form>
+    </section>
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <a class="fa-brands fa-square-github"></a>
+                <a class="fa-brands fa-square-facebook"></a>
+                <a class="fa-solid fa-envelope"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>

@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200;400;500;600;700&display=swap');
+
+:root{
+    --yellow: #FDC738;
+    --green: #22BB74;
+    --nero: #1C1C1C;
+    --white: #fff;
+    --gray: #7e7d7d;
+    --border: 1px solid rgba(0,0,0,0.10);
+    --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+html{
+    font-family: 'Anybody', cursive;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: var(--nero);
+    
+}
+
+section{
+    padding: 2.5rem 25%;
+}
+
+header{
+    padding: 2.5rem 25%;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.title a{
+    padding: 1.5rem 2.5rem;
+    border-radius: 5rem;
+    color: var(--white);
+    background-color: var(--green);
+    font-size: 3rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-bottom: 1px solid rgba(0,0,0,0.10);
+}
+
+.navbar .logo a{
+    font-size: 2.5rem;
+    color: var(--nero);
+    letter-spacing: .2rem;
+}
+
+.navbar .nav a{
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: var(--nero);
+}
+
+.navbar .nav a:hover{
+    color: var(--white);
+    background-color: var(--green);
+}
+
+#icon{
+    display: none;
+}
+
+
+/* ---------------------- HERO SECTION STARTS ------------------------ */
+
+.hero{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 10rem;
+}
+
+.hero .info{
+    flex: 1 1 25rem;
+}
+
+.hero .info h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.hero .info h3{
+    text-align: right;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .info p{
+    font-weight: 400;
+    font-size: 2rem;
+    text-indent: 5rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--gray);
+}
+
+.hero .info a{
+    display: inline-block;
+    text-align: left;
+    color: var(--nero);
+    background: var(--yellow);
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+.hero .image{
+    flex: 1 1 15rem;
+}
+
+.hero .image img{
+    width: 100%;
+}
+
+/* ---------------------- HERO SECTION ENDS------------------------ */
+
+/* ---------------------- ABOUT SELF SECTION START------------------------ */
+.aboutSelf{
+    padding-top: 10rem;
+}
+
+.aboutSelf .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+}
+
+.aboutSelf .box img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.aboutSelf .box h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.aboutSelf .box p{
+    font-size: 1.5rem;
+    text-indent: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+/* ---------------------- ABOUT SELF SECTION ENDS------------------------ */
+
+/* ---------------------- THUMBNAIL SECTION START------------------------ */
+.thumbnail{
+    padding-top: 10rem;
+}
+
+.thumbnail .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+    border-bottom: var(--border);
+    padding-bottom: 2rem;
+    
+}
+
+.thumbnail .box img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.thumbnail .box h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/* ---------------------- THUMBNAIL SECTION ENDS------------------------ */
+
+/* ---------------------- CONTACT SECTION START------------------------ */
+.contact{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.contact form{
+    flex: 1 1 20rem;
+}
+
+.contact form h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.contact form .box{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+.contact form .box input, .contact form .box textarea{
+    width: 100%;
+    border: var(--border);
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+.contact form button{
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+.contact .image{
+    height: 50rem;
+    margin: 0 auto;
+    
+}
+
+.contact .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    flex: 1 1 10rem;
+} 
+
+/* ---------------------- CONTACT SECTION ENDS------------------------ */
+
+
+/* ---------------------- FOOTER STARTS------------------------ */
+footer{
+    background-color: var(--nero);
+    padding: 2.5rem 25%;
+    color: var(--white);
+}
+
+footer .box-container{
+    font-size: 4rem;
+    text-align: center;
+}
+
+footer .box-container .box a{
+    cursor: pointer;
+    margin: 0 1.5rem;
+}
+
+footer .box-container .date{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+/* ---------------------- FOOTER ENDS------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    header{
+        padding: 2rem 10%;
+    }
+
+    section{
+        padding: 2rem !important;
+    }
+
+    .hero, .hero .info h1, .hero .info p, .hero .info h3{
+        text-align: center;
+    }
+}
+
+@media (max-width: 730px) {
+    html{
+        font-size: 50%;
+    }
+
+    header{
+        padding: 2rem;
+    }
+
+    #icon{
+        display: initial;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .navbar .nav{
+        position: absolute;
+        top: 5%;
+        right: 2rem;
+        background-color: var(--white);
+        width: 15rem;
+        border-radius: 1rem;
+        border: var(--border);
+        transform-origin: top right;
+        transform: scale(0);
+        opacity: 0;
+        transition: none;
+    }
+    
+    .navbar .nav.active{
+        transform: scale(1);
+        opacity: 1;
+        transition: .2s ease-out;
+    }
+
+    .navbar .nav a{
+        margin:1.5rem 1rem;
+        display: block;
+    }
+
+    footer .box-container .box a{
+        margin: 0 1.5rem;
+    }
+}
