@@ -24,12 +24,12 @@ const myHobbies = [
     {
         image: 'images/the-walking-dead.jpg',
         title: 'movies',
-        description: 'Cooking can bring happiness by providing a creative outlet and sense of accomplishment.',
+        description: 'Watching movies can be a great way to relax, escape reality, and broaden your horizons through exposure to different cultures, perspectives, and ideas.',
     },
     {
         image: 'images/valorant.jpg',
         title: 'games',
-        description: 'Cooking can bring happiness by providing a creative outlet and sense of accomplishment.',
+        description: 'Playing games can help improve cognitive function, increase social connections, and provide a fun way to relieve stress.',
     }
 ];
 
