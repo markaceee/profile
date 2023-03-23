@@ -114,7 +114,7 @@ header{
 
 .hero .info p{
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-indent: 5rem;
     line-height: 3rem;
     margin-bottom: 1.5rem;
@@ -200,6 +200,7 @@ header{
 }
 
 .thumbnail .box h1{
+    text-align: center;
     text-transform: capitalize;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -208,7 +209,7 @@ header{
 
 /* ---------------------- CONTACT SECTION START------------------------ */
 .contact{
-    padding-top: 10rem;
+    padding-top: 7rem;
     padding-bottom: 10rem;
     display: flex;
     flex-wrap: wrap-reverse;
@@ -283,6 +284,7 @@ footer .box-container{
 footer .box-container .box a{
     cursor: pointer;
     margin: 0 1.5rem;
+    color: var(--white);
 }
 
 footer .box-container .date{
